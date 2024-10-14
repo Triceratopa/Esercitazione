@@ -97,3 +97,32 @@ const me = {
   
  newArray.splice(9,1,100)
  console.log(newArray)
+ /* ESERCIZIO 9
+ Scrivi una funzione di nome "cutString", che riceve come parametro una stringa. La funzione deve creare una nuova stringa senza il primo e l'ultimo carattere
+ della stringa originale.
+*/ const cutString = function (gatto){
+
+  
+        if(gatto.lenght <=2){
+            return("")
+        
+
+    }
+    
+return gatto.slice(1,-1)
+    
+}
+console.log(cutString('gatto'))
+/* SCRIVI QUI LA TUA RISPOSTA */
+
+/* ESERCIZIO 10
+ Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
+*/
+const giveMeRandom = function(n){
+    arrayNumbers=[1,2,3,4,5,6,7,8,9,10]
+    if(n===arrayNumbers){
+        return (arrayNumbers)
+}}
+console.log(n)
+
+/* SCRIVI QUI LA TUA RISPOSTA */
